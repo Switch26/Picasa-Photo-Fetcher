@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ShutterBug_my.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Shutterbug.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>709CB0351A2E371F00F2BFE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>709CB04E1A2E371F00F2BFE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70D12C271A38A4FF00DBA049</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70D12C421A38A50000DBA049</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
