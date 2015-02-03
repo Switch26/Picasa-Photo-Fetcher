@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		709CB03C1A2E371F00F2BFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 709CB03B1A2E371F00F2BFE5 /* main.m */; };
 		709CB03F1A2E371F00F2BFE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 709CB03E1A2E371F00F2BFE5 /* AppDelegate.m */; };
-		709CB0421A2E371F00F2BFE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709CB0411A2E371F00F2BFE5 /* ViewController.m */; };
 		709CB0451A2E371F00F2BFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709CB0431A2E371F00F2BFE5 /* Main.storyboard */; };
 		709CB0471A2E371F00F2BFE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709CB0461A2E371F00F2BFE5 /* Images.xcassets */; };
 		709CB04A1A2E371F00F2BFE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709CB0481A2E371F00F2BFE5 /* LaunchScreen.xib */; };
@@ -51,8 +50,6 @@
 		709CB03B1A2E371F00F2BFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		709CB03D1A2E371F00F2BFE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		709CB03E1A2E371F00F2BFE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		709CB0401A2E371F00F2BFE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		709CB0411A2E371F00F2BFE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		709CB0441A2E371F00F2BFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		709CB0461A2E371F00F2BFE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		709CB0491A2E371F00F2BFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -142,8 +139,6 @@
 		709CB0381A2E371F00F2BFE5 /* Shutterbug */ = {
 			isa = PBXGroup;
 			children = (
-				709CB0401A2E371F00F2BFE5 /* ViewController.h */,
-				709CB0411A2E371F00F2BFE5 /* ViewController.m */,
 				709CB0431A2E371F00F2BFE5 /* Main.storyboard */,
 				709CB05F1A2E385000F2BFE5 /* FlickerPhotoTVC.h */,
 				709CB0601A2E385000F2BFE5 /* FlickerPhotoTVC.m */,
@@ -402,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				709CB0641A309BF800F2BFE5 /* JustPostedFlickrPhotosTVC.m in Sources */,
-				709CB0421A2E371F00F2BFE5 /* ViewController.m in Sources */,
 				709CB03F1A2E371F00F2BFE5 /* AppDelegate.m in Sources */,
 				709CB03C1A2E371F00F2BFE5 /* main.m in Sources */,
 				709CB0691A309D5B00F2BFE5 /* FlickrFetcher.m in Sources */,
@@ -716,6 +710,7 @@
 				70D12C4C1A38A50000DBA049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70D12C501A38A50000DBA049 /* Build configuration list for PBXNativeTarget "ShutterBug_myTests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +719,7 @@
 				70D12C4E1A38A50000DBA049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
